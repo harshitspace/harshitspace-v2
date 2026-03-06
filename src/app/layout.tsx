@@ -14,9 +14,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="flex min-h-screen">
+      <body className="flex min-h-screen" suppressHydrationWarning>
         <Sidebar />
-        <main className="ml-[320px] w-full max-w-[900px] p-16 box-border transition-all duration-300">
+        <main className="transition-all duration-300 w-full max-w-[900px] p-6 md:p-16 box-border ml-[80px] md:peer-[.expanded]:ml-[320px] md:peer-[.collapsed]:ml-[80px]">
           {children}
         </main>
       </body>
