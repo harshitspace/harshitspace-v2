@@ -40,7 +40,7 @@ export default function ProjectsPage() {
 
   return (
     <section className="animate-fadeIn">
-      <h2 className="text-accent text-[1.5rem] border-b border-dashed border-border-dark pb-2 uppercase mt-0 mb-8">
+      <h2 className="text-accent text-[1.5rem] font-bold border-b border-dashed border-border-dark pb-2 uppercase mt-0 mb-8">
         02. Executable_Binaries
       </h2>
 

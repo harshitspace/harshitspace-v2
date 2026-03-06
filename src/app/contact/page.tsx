@@ -3,7 +3,7 @@ import { FaEnvelope, FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 export default function ContactPage() {
   return (
     <section className="animate-fadeIn w-full max-w-full">
-      <h2 className="text-accent text-[1.5rem] border-b border-dashed border-border-dark pb-2 uppercase mt-0 mb-6">
+      <h2 className="text-accent text-[1.5rem] font-bold border-b border-dashed border-border-dark pb-2 uppercase mt-0 mb-6">
         03. Network_Requests
       </h2>
 

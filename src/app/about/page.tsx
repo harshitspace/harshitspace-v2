@@ -9,7 +9,7 @@ Hello! I specialize in building robust backend architectures and seamless fronte
 
   return (
     <section className="animate-fadeIn">
-      <h2 className="text-accent text-[1.5rem] border-b border-dashed border-border-dark pb-2 uppercase mt-0">
+      <h2 className="text-accent text-[1.5rem] font-bold border-b border-dashed border-border-dark pb-2 uppercase mt-0">
         01. System.init()
       </h2>
 
