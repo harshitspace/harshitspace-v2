@@ -3,6 +3,16 @@ import ProjectCard from "@/components/ProjectCard";
 export default function ProjectsPage() {
   const projects = [
     {
+      title: "YT Playlist Calculator",
+      status: "[200 OK] Streamlit Live",
+      statusType: "success" as const,
+      description:
+        "A utility tool that leverages the YouTube Data API to fetch and calculate the precise total duration of any video playlist.",
+      techStack: ["Python", "Streamlit", "YouTube Data API"],
+      githubUrl: "https://github.com/harshitspace/yt-playlist-calculator",
+      liveUrl: "https://ytplaylistcalculator.streamlit.app",
+    },
+    {
       title: "DevTinder",
       status: "[200 OK] AWS EC2",
       statusType: "success" as const,
