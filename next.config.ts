@@ -7,6 +7,11 @@ const nextConfig: NextConfig = {
         source: "/resume",
         destination: "/resume.pdf",
       },
+    ];
+  },
+
+  async redirects() {
+    return [
       {
         source: "/github",
         destination: "https://github.com/harshitspace",
