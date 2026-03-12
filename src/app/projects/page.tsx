@@ -46,6 +46,15 @@ export default function ProjectsPage() {
       techStack: ["Python", "Flask", "SQLite", "Jinja2"],
       githubUrl: "https://github.com/harshitspace/parkedIn",
     },
+    {
+      title: "PlacementPro",
+      status: "[202 ACCEPTED] In Development",
+      statusType: "local" as const,
+      description:
+        "Large-scale architecture currently in active development. Designed to streamline and optimize the placement pipeline.",
+      techStack: ["Next.js", "Full-Stack", "System Design"],
+      githubUrl: "https://github.com/harshitspace/placementPro",
+    },
   ];
 
   return (
